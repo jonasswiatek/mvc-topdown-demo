@@ -41,6 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MockQuoteService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DR.TopdownDemo.ServiceModel\DR.TopdownDemo.ServiceModel.csproj">
+      <Project>{5943D359-D52C-470E-BC83-F66FBE4EEDC5}</Project>
+      <Name>DR.TopdownDemo.ServiceModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
